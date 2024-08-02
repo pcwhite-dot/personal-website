@@ -1,0 +1,27 @@
+/*
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+*/
+
+.image-of-myself{
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+}
+
+.big-rec {
+    color: blue;
+    width: 1000px;
+    height: 1000px;
+}
+
+.schools-attended{
+    margin-right: 50px;
+}
