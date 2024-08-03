@@ -1,3 +1,4 @@
+/*
 
 body{
     /*height: 100%;
@@ -6,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;*/
+    background-color: #f0f0f0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -30,7 +31,7 @@ body{
 
 .tabs{
     align-items: center;
-    /*line-height: 300px;*/
+    /*line-height: 300px;
     text-align: center;
     word-spacing: 1000px;
     height: auto;
@@ -50,4 +51,125 @@ body{
     display: flex;
     justify-content: space-between;
     
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #ffffff;
+
+}
+
+.parent{
+    /*width: auto;*/
+}
+.big-rec {
+    background-color: #e0f2f1;
+    width: 100%;
+    height: calc(671.1px*0.6);
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: rgb(237, 237, 48);
+    position: relative;
+    z-index: 3;
+    border-radius: 100px;
+    margin: auto;
+}
+.logo {
+    font-size: 24px;
+    color: #d32f2f;
+    margin-left: 50px;
+}
+nav a {
+    margin-left: 150px;
+    
+    color: #333;
+    
+}
+
+nav a:active{
+   text-decoration: underline; 
+}
+.search-icon {
+    margin-right: 30px;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.content {
+    flex: 1;
+    margin-left: 100px;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.subtitle {
+    font-size: 24px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+}
+.cta-button {
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #ffa000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.image-container {
+    flex: 1;
+    position: relative;
+}
+.background-circle {
+    width: 470px;
+    height: 580px;
+    background-color: #00796b;
+    border-radius: 100% 0% 0% 100%;
+    position: absolute;
+    left: 70px;
+    bottom: 5px;
+    z-index: 0;
+}
+.profile-image {
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    right: -50px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.school-logos img {
+    height: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    filter: brightness(30%);
 }
