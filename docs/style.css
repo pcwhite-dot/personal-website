@@ -69,15 +69,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px;
-    background-color: #C9E5E5;
+    background-image: linear-gradient(#72d5d5 60%, white 40%);
     position: relative;
-}
-
-.white-background{
-    background-color: #ffffff;
-    width: 100%;
-    position: absolute;
-    top: 100%;
 }
 
 header {
@@ -97,7 +90,6 @@ header {
     color: #d32f2f;
     margin-left: 50px;
 }
-
 nav a {
     margin-left: 150px;
     
