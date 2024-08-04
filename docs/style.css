@@ -90,15 +90,14 @@ header {
     color: #d32f2f;
     margin-left: 50px;
 }
-nav a {
+nav a{
     margin-left: 150px;
-    
     color: #333;
-    
+    text-decoration: none;
 }
 
-nav a:active{
-   text-decoration: underline; 
+nav a:hover{
+    border-bottom: 2px solid rgb(49, 185, 215);
 }
 .search-icon {
     margin-right: 30px;
@@ -148,7 +147,7 @@ h1 {
 .red-background-circle {
     width: 400px;
     height: 400px;
-    background-color: #f77a7a;
+    background-color: #ff6565;
     border-radius: 100% 100% 100% 100%;
     position: absolute;
     left: 10px;
@@ -159,7 +158,7 @@ h1 {
 .green-background-circle {
     width: 350px;
     height: 350px;
-    background-color: #87c28f;
+    background-color: #2bb640;
     border-radius: 100% 100% 100% 100%;
     position: absolute;
     left: 100px;
