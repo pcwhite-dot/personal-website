@@ -1,0 +1,134 @@
+<!DOCTYPE html> <!--Defines the document to be HTML5-->
+
+<html lang="en"> <!--Opens the html tag and sets the language of the document to English-->
+
+<head> <!-- Opens the head tag which contains meta information about the document -->
+
+    <meta charset="UTF-8"> <!--Sets the character encoding for the document-->
+
+    <meta name="description" content="This is Paul's resume."> <!-- Description of the webpage, often used by search engines -->
+
+    <meta name="keywords" content="resume, jobs, web development, computer science, etc..."> <!-- Defines keywords for search engines -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Controls the viewport on mobile devices, making the website responsive -->
+
+    <title>Paul White's Resume</title> <!-- The title of the document, appears in browser tab -->
+
+    <!--<link rel="stylesheet" type="text/css" href="css/resume.css"> --><!-- Links the main css file for styles -->
+
+    <link rel="stylesheet" href="resume.css" />
+
+    <!-- Preloads font awesome stylesheet for icons, this helps speed up loading as the stylesheet is loaded in the background -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript> <!-- Provides a fallback in case JavaScript is disabled -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    </noscript>
+
+    <!-- Preloads the Google fonts for the webpage, helps with performance -->
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Work+Sans:wght@400;500&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript> <!-- Provides a fallback in case JavaScript is disabled -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Work+Sans:wght@400;500&display=swap">
+    </noscript>
+</head> <!-- Closes the head tag -->
+
+<body> <!-- Opens the body tag, this is where the content of the webpage goes -->
+
+    <div class="container"> <!-- Container class will be used to style all the content within it -->
+
+        <aside class="sidebar" role="complementary"> <!-- The aside tag is used for content that is related but separate from the main content, often as a sidebar -->
+
+            <div class="sidebar-top"> <!-- A div to contain all elements on the top of the sidebar -->
+
+                <div class="portrait"> <!-- A div to hold the profile picture -->
+                    <img src="https://media.licdn.com/dms/image/D4E03AQF809Zyxbo4ZA/profile-displayphoto-shrink_400_400/0/1722265484841?e=1727913600&v=beta&t=swDTQgrG-00Q8beslcueCGsnv97LTLv3GkcZB-ri0ow" alt="Portrait of Paul White, Web Developer"> <!-- The profile picture itself -->
+                </div>
+                <h2>Paul White</h2> <!-- Name of the resume owner -->
+                <h3>Web Developer</h3> <!-- Job title of the resume owner -->
+                <div class="links"> <!-- A div to hold all social media and contact links -->
+                    <!-- Each link also has an aria-label attribute to describe the link to screen readers -->
+                    <a href="www.linkedin.com/in/paul-white-b85a6b313" aria-label="Paul White's LinkedIn profile"><i
+                            class="fab fa-linkedin"></i></a> <!-- LinkedIn link -->
+                    <a href="https://github.com/pcwhite-dot" aria-label="Paul White's GitHub profile"><i
+                            class="fab fa-github"></i></a> <!-- Github link -->
+                    <a href="white.paul0099@gmail.com" aria-label="Email Paul White"><i
+                            class="fab fas fa-envelope"></i></a> <!-- Email link -->
+            </div> <!-- Closes the links div -->
+            <section class="sidebar-bottom"> <!-- A section to hold the resume objective -->
+                <h4>Objective</h4> <!-- Title of the objective section -->
+                <p>Passionate web developer...</p> <!-- Objective text -->
+            </section> <!-- Closes the sidebar-bottom section -->
+            </div> <!-- Closes the sidebar-top div -->
+
+        </aside> <!-- Closes the aside tag -->
+
+        <main class="main-content" role="main"> <!-- The main content of the webpage, where the major content is placed -->
+
+            <header role="banner"> <!-- Header of the main content -->
+                <h1>Paul White's Resume</h1> <!-- Title of the resume -->
+            </header>
+
+            <section class="education-section"> <!-- A section to list educational background -->
+                <h2>Education</h2> <!-- Title of the education section -->
+                <h3>B.A. in Computer Science | Colgate University</h3> <!-- Degree and university -->
+                <h4>2021 - 2025</h4> <!-- Duration of the degree -->
+                <h5>Relevant Coursework: Object-Oriented Programming, Data Structures and Algorithms, Computer Systems, Mobile App Development, Project Management, Web Development </h5>
+            </section> <!-- Closes the education section -->
+
+            <section class="skills-section"> <!-- A section to list all skills -->
+                <h2>Skills</h2> <!-- Title of the skills section -->
+                <ul class="skill-list"> <!-- Unordered list to contain all skills -->
+                    <li><i class="fab fa-html5 icon"></i>HTML</li>
+                    <li><i class="fab fa-css3-alt icon"></i>CSS</li>
+                    <li><i class="fab fa-js icon"></i>JavaScript</li>
+                    <li><i class="fab fa-java icon"></i>Java</li>
+                    <li><i class="fas fa-code icon"></i>C</li>
+                    <li><i class="fab fa-python icon"></i>Python</li>
+                    <li><i class="fab fa-golang icon"></i>Golang</li>
+                    <li><i class="fab fa-swift icon"></i>Swift</li>
+                    <li><i class="fab fa-linux icon"></i>Linux</li>
+                    <li><i class="fas fa-code icon"></i>Visual Studio Code</li>
+                    <li><i class="fab fa-github icon"></i>GitHub</li>
+                    <li><i class="fab fa-python icon"></i>PyTorch</li>
+                </ul> <!-- Closes the skill list -->
+            </section> <!-- Closes the skills section -->
+
+            <section class="project-section">
+                <h1> Projects </h1>
+                <h3>Wordle Replica</h3> <!-- name of the project -->
+                <h4>Spring 2022</h4> <!-- date completed project-->
+                <ul>
+                    <li>Designed and implemented the backend logic for a Wordle game replica using Java, demonstrating proficiency in game mechanics and software design patterns.</li>
+                </ul> <!-- description of project -->
+                
+                <h3> Scrolling Game: Child Crossing</h3>
+                <h4> Spring 2023</h4>
+                <ul>
+                    <li> Developed a dynamic side-scrolling game in Java, incorporating polymorphism to enable a child character to navigate through traffic, showcasing advanced object-oriented programming skills.</li>
+                </ul>
+
+                <h3> Online Menu</h3>
+                <h4> Summer 2024</h4>
+                <ul>
+                    <li> Engineered a full-stack web application using Golang for the backend and HTML/CSS for the frontend. This platform allows users to order food and receive a bill, highlighting capabilities in web development and server-side programming.</li>
+                </ul>
+
+                <section class="experience-section"> <!-- A section to list work experience -->
+                    <h2>Experience</h2> <!-- Title of the experience section -->
+                    <h3>Information Technology Service Assistant | Colgate University</h3> <!-- Job title and company -->
+
+                    <h4>2022 - 2023</h4> <!-- Job duration -->
+                    <ul> <!-- Unordered list to contain job details -->
+                        <li>Spearheaded the setup and management of technological infrastructure for various campus events, ensuring seamless operations and providing technical support, which improved overall event execution and user satisfaction.</li> <!-- Each job detail -->
+                    </ul> <!-- Closes the job details list -->
+
+                </section> <!-- Closes the experience section -->
+            </section>
+        </main> <!-- Closes the main content -->
+    </div> <!-- Closes the container -->
+</body> <!-- Closes the body -->
+
+</html> <!-- Closes the HTML -->
